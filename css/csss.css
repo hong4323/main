@@ -1,0 +1,337 @@
+/* contact */
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:focus {
+    outline: none !important;
+  }
+  
+  img, video {
+    border: 0;
+    vertical-align: top;
+  }
+  
+  img {
+    display: block;
+  }  
+  input[type=text] {
+    outline: 0;
+  }
+  input[type=search]::-ms-clear,
+input[type=search]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+textarea {
+  outline: 0;
+}
+
+select, textarea, button, input {
+  font: 1.5rem 'Mulish', 'Nanum Gothic Coding' ,sans-serif;
+}
+body {
+    font: 1.5rem 'Mulish', 'S-CoreDream-4Regular', sans-serif;
+    letter-spacing: -0.08em;
+    color: #555;
+    overflow-x: hidden;
+  }
+  
+  .wrap {
+    width: 100%;
+  }
+  
+  section {
+    padding: 4em 0 5em;
+  }
+
+#contact .contactDetail .iconArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+
+#contact .contactDetail .iconArea li {
+  width: calc((100% - 9.1em) / 4);
+  margin-right: 3em;
+}
+
+#contact .contactDetail .iconArea li:last-child {
+  margin-right: 0;
+}
+
+#contact .contactDetail .iconArea li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+#contact .contactDetail .iconArea li a:hover,
+#contact .contactDetail .iconArea li a:focus {
+  transform: translateY(-1em);
+}
+
+#contact .contactDetail .iconArea li a figure {
+  margin-bottom: 1em;
+}
+
+#contact .contactDetail .iconArea li a figure img {
+  margin: 0 auto;
+}
+
+#contact .contactDetail .iconArea li a .txtArea {
+  text-align: center;
+}
+
+#contact .contactDetail .iconArea li a .txtArea h4 {
+  margin-bottom: 0;
+  font-size: 2.2rem;
+}
+
+#contact .contactDetail .iconArea li a .txtArea p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#contact .contactDetail .mailForm form ul {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+#contact .contactDetail .mailForm form ul li {
+  width: calc((100% - 9em) / 4);
+  margin-right: 3em;
+}
+
+#contact .contactDetail .mailForm form ul li label,
+#contact .contactDetail .mailForm form .meArea label {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #342557;
+}
+
+#contact .contactDetail .mailForm form ul li label span,
+#contact .contactDetail .mailForm form .meArea label span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.1em;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+#contact .contactDetail .mailForm form ul li input {
+  width: 100%;
+  padding: 0.5em 1em;
+  border: 1px solid #9d84d6;
+  background-color: #eeeaf5;
+  font-family: 'S-CoreDream-3Light', sans-serif;
+  font-size: 1.4rem;
+  color: #6951a3;
+}
+
+#contact .contactDetail .mailForm form ul li input::placeholder {
+  color: #342557;
+}
+
+#contact .contactDetail .mailForm form .meArea {
+  margin-bottom: 1.5em;
+}
+
+#contact .contactDetail .mailForm form .meArea textarea {
+  width: 100%;
+  height: 8em;
+  padding: 1em;
+  border: 1px solid #9d84d6;
+  background-color: #eeeaf5;
+}
+
+#contact .contactDetail .mailForm form .meArea textarea::placeholder {
+  font-family: 'S-CoreDream-4Regular', sans-serif;
+  color: #342557;
+}
+
+#contact .contactDetail .mailForm form button {
+  float: right;
+}
+
+#contact .contactDetail .iconArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+
+#contact .contactDetail .iconArea li {
+  width: calc((100% - 9.1em) / 4);
+  margin-right: 3em;
+}
+
+#contact .contactDetail .iconArea li:last-child {
+  margin-right: 0;
+}
+
+#contact .contactDetail .iconArea li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+#contact .contactDetail .iconArea li a:hover,
+#contact .contactDetail .iconArea li a:focus {
+  transform: translateY(-1em);
+}
+
+#contact .contactDetail .iconArea li a figure {
+  margin-bottom: 1em;
+}
+
+#contact .contactDetail .iconArea li a figure img {
+  margin: 0 auto;
+}
+
+#contact .contactDetail .iconArea li a .txtArea {
+  text-align: center;
+}
+
+#contact .contactDetail .iconArea li a .txtArea h4 {
+  margin-bottom: 0;
+  font-size: 2.2rem;
+}
+
+#contact .contactDetail .iconArea li a .txtArea p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#contact .contactDetail .mailForm form ul {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+#contact .contactDetail .mailForm form ul li {
+  width: calc((100% - 9em) / 4);
+  margin-right: 3em;
+}
+
+#contact .contactDetail .mailForm form ul li label,
+#contact .contactDetail .mailForm form .meArea label {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #342557;
+}
+
+#contact .contactDetail .mailForm form ul li label span,
+#contact .contactDetail .mailForm form .meArea label span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.1em;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+#contact .contactDetail .mailForm form ul li input {
+  width: 100%;
+  padding: 0.5em 1em;
+  border: 1px solid #9d84d6;
+  background-color: #eeeaf5;
+  font-family: 'S-CoreDream-3Light', sans-serif;
+  font-size: 1.4rem;
+  color: #6951a3;
+}
+
+#contact .contactDetail .mailForm form ul li input::placeholder {
+  color: #342557;
+}
+
+#contact .contactDetail .mailForm form .meArea {
+  margin-bottom: 1.5em;
+}
+
+#contact .contactDetail .mailForm form .meArea textarea {
+  width: 100%;
+  height: 8em;
+  padding: 1em;
+  border: 1px solid #9d84d6;
+  background-color: #eeeaf5;
+}
+
+#contact .contactDetail .mailForm form .meArea textarea::placeholder {
+  font-family: 'S-CoreDream-4Regular', sans-serif;
+  color: #342557;
+}
+
+#contact .contactDetail .mailForm form button {
+  float: right;
+}
+
+

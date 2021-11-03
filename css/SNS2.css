@@ -1,0 +1,785 @@
+@media screen and (min-width: 1601px) and (max-width: 1660px) {
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea table th {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+
+  /* mainVisual */
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 {
+    width: 90%;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea .btnArea .btn {
+    padding: 0.8em;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1399px) {
+
+  /* layout */
+  .inner {
+    width: 90%;
+  }
+
+  /* mainVisual */
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 {
+    width: 80%;
+  }
+
+  /* skills */
+  #skills .skillDetail ul li .logoArea {
+    width: calc(25% - 1.5em);
+    margin-right: 1.5em;
+  }
+
+  #skills .skillDetail ul li .graphArea {
+    width: 74%;
+  }
+
+  /* graphic */
+  #graphic .graphicDetail .mySwiper2 .swiper-slide img {
+    height: 100%;
+  }
+
+  #graphic .graphicDetail .mySwiper2 .graphic01 img,
+  #graphic .graphicDetail .mySwiper2 .graphic02 img,
+  #graphic .graphicDetail .mySwiper2 .graphic13 img,
+  #graphic .graphicDetail .mySwiper2 .graphic17 img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea table th {
+    font-size: 1.2rem;
+  }
+
+  /* projectDocument */
+  #projectDocument .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 80%;
+    height: auto;
+  }
+
+  #projectDocument .swiper-container .swiper-button-prev {
+    left: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-button-next {
+    right: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-pagination-fraction {
+    bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1150px) {
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li {
+    display: block;
+    padding: 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li figure {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin: 0 auto 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /* common */
+  html {
+    font-size: 9px;
+  }
+
+  /* layout */
+  .inner {
+    width: 90%;
+  }
+
+  /* mainVisual */
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 {
+    width: 70%;
+  }
+
+  /* introduce */
+  #introduce .introDetail>div ul li b {
+    font-size: 1.5rem;
+  }
+
+  /* introduce */
+  #introduce .introDetail .information ul li {
+    font-size: 1.5rem;
+  }
+
+  /* skills */
+  #skills .skillDetail ul li .logoArea {
+    width: calc(25% - 1.5em);
+  }
+
+  #skills .skillDetail ul li .graphArea {
+    width: 74%;
+  }
+
+  #skills .skillDetail ul li .graphArea h4 {
+    font-size: 2rem;
+  }
+
+  #skills .skillDetail ul li .graphArea .bar {
+    font-size: 1.3rem;
+  }
+
+  #skills .skillDetail ul li .graphArea p {
+    margin-top: 0.7em;
+    font-size: 1.2rem;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea table {
+    font-size: 1.2rem;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea .btnArea .btn {
+    padding: 0.6em;
+    font-size: 1.3rem;
+  }
+
+  /* projectDocument */
+  #projectDocument .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 80%;
+    height: auto;
+  }
+
+  #projectDocument .swiper-container .swiper-button-prev {
+    left: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-button-next {
+    right: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-pagination-fraction {
+    bottom: 30%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 970px) {
+
+  /* graphic */
+  #graphic .graphicDetail .mySwiper2 .swiper-slide img {
+    height: 100%;
+  }
+
+  #graphic .graphicDetail .mySwiper2 .graphic01 img,
+  #graphic .graphicDetail .mySwiper2 .graphic02 img,
+  #graphic .graphicDetail .mySwiper2 .graphic13 img,
+  #graphic .graphicDetail .mySwiper2 .graphic17 img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li {
+    display: block;
+    padding: 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li figure {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin: 0 auto 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea {
+    width: 100%;
+  }
+
+  /* projectDocument */
+  #projectDocument .swiper-container .swiper-pagination-fraction {
+    bottom: 10% !important;
+  }
+
+  /* contact */
+  
+  #contact .contactDetail .iconArea li a .txtArea p {
+    font-size: 1.3rem;
+  }
+
+  #contact .contactDetail .mailForm form ul {
+    display: block;
+    width: 80%;
+  }
+
+  #contact .contactDetail .mailForm form ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  #contact .contactDetail .mailForm form ul li input {
+    padding: 0.8em 1em;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+  /* common */
+  html {
+    font-size: 8px;
+  }
+
+  /* layout */
+  .inner {
+    width: 90%;
+
+  }
+
+  /* mainVisual */
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 {
+    width: 85%;
+  }
+
+  /* introduce */
+  #introduce .introDetail .information ul li {
+    font-size: 1.4rem;
+  }
+
+  /* skills */
+  #skills .skillDetail ul li .logoArea {
+    width: calc(30% - 1.5em);
+  }
+
+  #skills .skillDetail ul li .graphArea {
+    width: 70%;
+  }
+
+  #skills .skillDetail ul li .graphArea h4 {
+    font-size: 2rem;
+  }
+
+  #skills .skillDetail ul li .graphArea p {
+    font-size: 1.4rem;
+    word-break: keep-all;
+  }
+
+  /* graphic */
+  #graphic .graphicDetail .mySwiper2 .swiper-slide img {
+    height: 100%;
+  }
+
+  #graphic .graphicDetail .mySwiper2 .graphic01 img,
+  #graphic .graphicDetail .mySwiper2 .graphic02 img,
+  #graphic .graphicDetail .mySwiper2 .graphic13 img,
+  #graphic .graphicDetail .mySwiper2 .graphic17 img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioCon ul li {
+    display: block;
+    padding: 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li figure {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin: 0 auto 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea {
+    width: 100%;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea .btnArea .btn {
+    font-size: 1.4rem;
+  }
+
+  /* projectDocument */
+  #projectDocument .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 80%;
+    height: auto;
+  }
+
+  #projectDocument .swiper-container .swiper-button-prev {
+    left: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-button-next {
+    right: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-pagination-fraction {
+    bottom: 30%;
+  }
+
+  /* contact */
+  #contact .contactDetail .iconArea li a .txtArea p {
+    font-size: 1.5rem;
+  }
+
+  #contact .contactDetail .mailForm form ul {
+    display: block;
+  }
+
+  #contact .contactDetail .mailForm form ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  #contact .contactDetail .mailForm form ul li input {
+    padding: 0.8em 1em;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 730px) {
+
+  /* introduce */
+  #introduce .introDetail>div ul li h5 {
+    font-size: 1.7rem;
+  }
+
+  /* contact */
+  #contact .contactDetail .iconArea li {
+    width: calc((100% - 4.5em) / 4);
+    margin-right: 1.5em;
+  }
+
+  #contact .contactDetail .iconArea li a .txtArea p {
+    font-size: 1.4rem;
+  }
+
+  /* skills */
+  #skills .skillDetail ul li .graphArea .bar {
+    font-size: 1.2rem;
+    line-height: 2em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  /* common */
+  html {
+    font-size: 8px;
+  }
+
+  /* layout */
+  .inner {
+    width: 90%;
+  }
+
+  /* header */
+  header {
+    padding: 1.5em 0;
+  }
+
+  header .mobMenu {
+    display: inline-block;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 90%;
+    height: 100vh;
+    padding: 1.5em;
+    background-color: #eeeaf5;
+    box-sizing: border-box;
+    transition: 0.7s;
+  }
+
+  header nav.slide-right {
+    left: 0;
+  }
+
+  header nav .mobMenuClose {
+    display: block;
+    float: right;
+  }
+
+  header nav .mobMenuClose a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  header nav .mobMenuClose a span {
+    font-size: 4rem;
+    color: #342557;
+  }
+
+  header nav ul {
+    display: block;
+  }
+
+  header nav ul li {
+    padding-left: 0;
+    margin-bottom: 1.5em;
+  }
+
+  header nav ul li a {
+    font-size: 3rem;
+    color: #9d84d6;
+  }
+
+  header .mobMenu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  header .mobMenu a span {
+    font-size: 4rem;
+    color: #fff;
+  }
+
+  header.move-down .mobMenu a span {
+    color: #342557;
+  }
+
+  /* mainVisual */
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea {
+    top: 40%;
+  }
+
+  #mainVisual .swiper-container .paging {
+    bottom: 20%;
+  }
+
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 {
+    width: 90%;
+    height: 4em;
+  }
+
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 img {
+    height: 50%;
+  }
+
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h3 {
+    font-size: 2rem;
+    word-break: keep-all;
+  }
+
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h3 br {
+    display: none;
+  }
+
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h3 .mobBr {
+    display: block;
+  }
+
+  /* introduce */
+  #introduce .secDetail {
+    display: block;
+  }
+
+  #introduce .introDetail>div {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3em;
+  }
+
+  #introduce .introDetail .information figure {
+    height: 15em;
+  }
+
+  /* skills */
+  #skills .skillDetail {
+    display: block;
+  }
+
+  #skills .skillDetail ul {
+    width: 100%;
+  }
+
+  #skills .skillDetail ul li:last-child {
+    margin-bottom: 3em;
+  }
+
+  #skills .skillDetail ul li.illustrator {
+    margin-bottom: 0;
+  }
+
+  #skills .skillDetail .skillLanguage {
+    margin-right: 0;
+  }
+
+  #skills .skillDetail .skillLanguage:after {
+    display: none;
+  }
+
+  #skills .skillDetail ul li .logoArea {
+    width: calc(29% - 1.5em);
+  }
+
+  #skills .skillDetail ul li .graphArea {
+    width: 100%;
+  }
+
+  #skills .skillDetail ul li .graphArea p {
+    font-size: 1.4rem;
+  }
+
+  /* graphic */
+  #graphic .graphicDetail .mySwiper2 {
+    height: 20em;
+  }
+
+  #graphic .graphicDetail .mySwiper2 .swiper-slide img {
+    height: 100%;
+  }
+
+  #graphic .graphicDetail .mySwiper2 .graphic01 img,
+  #graphic .graphicDetail .mySwiper2 .graphic02 img,
+  #graphic .graphicDetail .mySwiper2 .graphic03 img,
+  #graphic .graphicDetail .mySwiper2 .graphic09 img,
+  #graphic .graphicDetail .mySwiper2 .graphic12 img,
+  #graphic .graphicDetail .mySwiper2 .graphic13 img,
+  #graphic .graphicDetail .mySwiper2 .graphic17 img,
+  #graphic .graphicDetail .mySwiper2 .graphic18 img {
+    width: 80%;
+    height: auto;
+  }
+
+  #graphic .graphicDetail .mySwiper2 .swiper-button-prev,
+  #graphic .graphicDetail .mySwiper2 .swiper-button-next {
+    background-size: 1.2em;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioTab {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon h5 br {
+    display: block;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li {
+    height: 5em;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li:nth-child(3) {
+    margin-right: 0;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0.5em 2em;
+    text-align: center;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li a br {
+    display: block;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li a span {
+    display: none;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li {
+    display: block;
+    width: 100%;
+    margin: 0 0 3em 0;
+    padding: 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li figure {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin: 0 auto 3em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea {
+    width: 100%;
+  }
+
+  /* projectDocument */
+  #projectDocument .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 75%;
+    height: auto;
+  }
+
+  #projectDocument .swiper-container .swiper-button-prev,
+  #projectDocument .swiper-container .swiper-button-next {
+    background-size: 1.5em;
+  }
+
+  #projectDocument .swiper-container .swiper-button-prev {
+    left: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-button-next {
+    right: 3%;
+  }
+
+  #projectDocument .swiper-container .swiper-pagination-fraction {
+    bottom: 5%;
+  }
+
+  #projectDocument .swiper-container .reClose span {
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  /* contact */
+  #contact .contactDetail .iconArea li {
+    width: calc((100% - 1.5em) / 2);
+    margin-right: 1.5em;
+  }
+
+  #contact .contactDetail .iconArea li:nth-child(1),
+  #contact .contactDetail .iconArea li:nth-child(2) {
+    margin-bottom: 1.5em;
+  }
+
+  #contact .contactDetail .iconArea li:nth-child(even) {
+    margin-right: 0;
+  }
+
+  #contact .contactDetail .mailForm form ul {
+    display: block;
+  }
+
+  #contact .contactDetail .mailForm form ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  #contact .contactDetail .mailForm form ul li input {
+    padding: 0.8em 1em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 369px) {
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioTab li {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li a br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  /* mainVisual */
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h2 img {
+    height: 40%;
+  }
+
+  #mainVisual .swiper-container .swiper-wrapper .swiper-slide .txtArea h3 {
+    font-size: 1.8rem;
+  }
+
+  /* introduce */
+  #introduce .introDetail>div ul li b {
+    font-family: 'S-CoreDream-4Regular', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  /* skills */
+  #skills .skillDetail ul li {
+    display: block;
+  }
+
+  #skills .skillDetail ul li .logoArea {
+    width: 30%;
+    margin-right: 0;
+    margin: 0 auto 1.5em;
+  }
+
+  #skills .skillDetail ul li .graphArea h4 {
+    text-align: center;
+  }
+
+  #skills .skillDetail ul li .graphArea .bar {
+    width: 100%;
+  }
+
+  #skills .skillDetail ul li .graphArea p {
+    text-align: center;
+  }
+
+  /* graphic */
+  #graphic .graphicDetail .mySwiper2 .graphic06 img,
+  #graphic .graphicDetail .mySwiper2 .graphic07 img,
+  #graphic .graphicDetail .mySwiper2 .graphic08 img,
+  #graphic .graphicDetail .mySwiper2 .graphic10 img {
+    width: 80%;
+    height: auto;
+  }
+
+  #graphic .graphicDetail .mySwiper .swiper-slide img {
+    height: 100%;
+  }
+
+  /* portfolio */
+  #portfolio .portfolioDetail .portfolioTab li {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  #portfolio .portfolioDetail .portfolioTab li a br {
+    display: none;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li {
+    padding: 1.5em;
+  }
+
+  #portfolio .portfolioDetail .portfolioCon ul li .txtArea table {
+    font-size: 1.3rem;
+  }
+
+  /* contact */
+  #contact .contactDetail .iconArea {
+    display: block;
+    margin-bottom: 3em;
+    width: 80%
+  }
+
+  #contact .contactDetail .iconArea li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3em;
+  }
+}
